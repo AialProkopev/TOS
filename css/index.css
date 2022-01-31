@@ -305,6 +305,10 @@ body {
   flex-direction: column;
   
 }
+.roadmap__content h2 {
+  text-align: center;
+}
+
 
 @media (max-width:479.98px) {
   .roadmap__container {
@@ -312,7 +316,10 @@ body {
   }
   .roadmap__content {
     padding: 5px 5px;
-    font-size: 10px;
+    font-size: 8px;
+  }
+  .roadmap__content h2 {
+    font-size: 11px;
   }
 }
 
